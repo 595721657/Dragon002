@@ -28,7 +28,7 @@
     <td>${stu.age}</td>
     <td>${stu.sex }</td>
     <td>${stu.special }</td>
-    <td><a href="Findsno?stuNo=${stu.sno}">修改</a>&nbsp;&nbsp;<a href="Delete?stuNo=${stu.sno}">删除</a></td>
+    <td><a href="Findsno?sno=${stu.sno}">修改</a>&nbsp;&nbsp;<a href="Delete?sno=${stu.sno}">删除</a></td>
   </tr>
   </c:forEach>
 </table>
